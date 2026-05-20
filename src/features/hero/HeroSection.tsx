@@ -1,0 +1,39 @@
+import { useI18n } from '../../hooks/useI18n'
+
+export function HeroSection() {
+  const { t } = useI18n()
+
+  return (
+    <section
+      id="hero"
+      className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center text-center px-4"
+    >
+      <div className="w-24 h-24 rounded-full bg-neutral-300 dark:bg-neutral-700 mb-8 flex items-center justify-center text-3xl font-bold text-neutral-700 dark:text-neutral-300">
+        MS
+      </div>
+      <h1 className="text-5xl sm:text-6xl font-bold mb-4 text-neutral-900 dark:text-neutral-100">
+        {t('hero.title')}
+      </h1>
+      <p className="text-xl text-neutral-600 dark:text-neutral-400 mb-6">
+        {t('hero.subtitle')}
+      </p>
+      <p className="max-w-xl text-neutral-500 dark:text-neutral-400 leading-relaxed">
+        {t('hero.description')}
+      </p>
+      <div className="flex gap-4 mt-10">
+        <a
+          href="#about"
+          className="px-6 py-3 rounded-xl bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 font-medium hover:opacity-90 transition-opacity"
+        >
+          {t('nav.about')}
+        </a>
+        <a
+          href="#contact"
+          className="px-6 py-3 rounded-xl border border-neutral-300 dark:border-neutral-700 text-neutral-900 dark:text-neutral-100 font-medium hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
+        >
+          {t('nav.contact')}
+        </a>
+      </div>
+    </section>
+  )
+}
