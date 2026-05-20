@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Muhammet Saraç",
+    "subtitle": "Computer Engineering Student",
+    "description": "I am interested in developing functional and user-friendly digital products. I continuously improve myself in full-stack development, user-centered design, and problem solving."
+  },
+  "about": {
+    "title": "About Me",
+    "education": "Education",
+    "university": "Pamukkale University",
+    "department": "Computer Engineering",
+    "gpa": "GPA: 3.25",
+    "erasmus": "Erasmus — University of Maribor",
+    "erasmusDesc": "During February 2025 – July 2025, I studied at the University of Maribor as part of the Erasmus program. I worked with C++ and 3D animation using OpenGL, and gained experience with Blender.",
+    "description": "I am a Computer Engineering student at Pamukkale University. I am a responsible, adaptable person who is eager to learn. With my strong problem-solving skills and creative perspective, I enjoy being an efficient member of a team."
+  },
+  "skills": {
+    "title": "Skills",
+    "languages": "Programming Languages",
+    "frameworks": "Frameworks & Technologies",
+    "tools": "Tools & Software"
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location"
+  },
+  "footer": {
+    "builtWith": "Built with React & Tailwind CSS"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  }
+}
