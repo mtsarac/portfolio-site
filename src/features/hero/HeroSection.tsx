@@ -8,9 +8,11 @@ export function HeroSection() {
       id="hero"
       className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center text-center px-4"
     >
-      <div className="w-24 h-24 rounded-full bg-neutral-300 dark:bg-neutral-700 mb-8 flex items-center justify-center text-3xl font-bold text-neutral-700 dark:text-neutral-300">
-        MS
-      </div>
+      <img
+        src="/myself.jpg"
+        alt="Muhammet Saraç"
+        className="w-28 h-28 rounded-full object-cover mb-8 shadow-sm"
+      />
       <h1 className="text-5xl sm:text-6xl font-bold mb-4 text-neutral-900 dark:text-neutral-100">
         {t('hero.title')}
       </h1>
